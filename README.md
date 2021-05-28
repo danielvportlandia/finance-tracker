@@ -69,10 +69,10 @@ Hirb.enable
 
 ## Generators
 
-New Model + DB migration file (e.g. User)
+New Model + DB migration file (e.g. User with attributes name and height)
 
 ```console
-rails generate model User
+rails generate model User name:string height:decimal
 ```
 
 Prefill DB with mock data programatically (update db/migrate/seeds.rb file first):
