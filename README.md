@@ -1,6 +1,6 @@
 # FINANCE TRACKER
 
-This is the finance-tracker application from the Complete Ruby on Rails Developer course. Click the link to see it in action [Finance Tracker]().
+This is the finance-tracker application from the Complete Ruby on Rails Developer course. Click the link to see it in action [Finance Tracker](https://finance-tracker-0624.herokuapp.com/).
 
 ## Versions
 
@@ -144,7 +144,7 @@ heroku rename <new_name_of_application>
 Ensure that the main branch is up-to-date in Github and that all gems are installed, then update the main branch in Heroku:
 
 ```console
-git push heroku master
+git push heroku <main/master>
 ```
 
 Then run any pending migrations in Heroku
