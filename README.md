@@ -67,6 +67,20 @@ Enable table views in the console (in the console)
 Hirb.enable
 ```
 
+## Credentials
+
+The encrypted credentials for the application are saved in config/credentials.yml.enc. To view/edit these credentials run:
+
+```console
+EDITOR="code --wait" rails credentials:edit
+```
+
+To access credentials in the code (e.g. AWS's Access Key), use:
+
+```console
+Rails.application.credentials.aws[:access_key_id]
+```
+
 ## Generators
 
 New Model + DB migration file (e.g. User with attributes name and height)
