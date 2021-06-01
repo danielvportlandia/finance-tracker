@@ -119,6 +119,12 @@ New Channel (e.g. chatroom)
 rails generate channel chatroom
 ```
 
+New Resource (e.g. many-to-many relationship between 2 models)
+
+```console
+rails g resource UserStock user:references stock:references
+```
+
 &nbsp;
 
 ## Production
