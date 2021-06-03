@@ -173,6 +173,12 @@ Then run any pending migrations in Heroku
 heroku run rails db:migrate
 ```
 
+Upload your master.key to Heroku (secrets)
+
+```console
+heroku config:set RAILS_MASTER_KEY=<your_master.key_value>
+```
+
 Afterwards, Production should be updated and is ready to view
 
 ```console
